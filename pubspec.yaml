@@ -1,10 +1,10 @@
 name: habit_tracker_frontend
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
-  sdk: '>=3.3.0 <4.0.0'
+  sdk: ">=3.3.0 <4.0.0"
 
 dependencies:
   flutter:
@@ -17,3 +17,32 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Nunito
+      fonts:
+        # variable-weight versions
+        - asset: assets/fonts/Nunito/Nunito-VariableFont_wght.ttf
+        - asset: assets/fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf
+          style: italic
+
+        # static weights
+        - asset: assets/fonts/Nunito/static/Nunito-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Nunito/static/Nunito-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/Nunito/static/Nunito-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Nunito/static/Nunito-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/Nunito/static/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Nunito/static/Nunito-BoldItalic.ttf
+          weight: 700
+          style: italic
